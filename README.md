@@ -33,3 +33,23 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+## Todo
+
+- [x] Nest.js setup
+- [ ] API end points
+  - [ ] tasks
+    - [x] /tasks GET
+    - [ ] /tasks POST
+    - [ ] /tasks/:id GET
+    - [ ] /tasks/:id UPDATE
+    - [ ] /tasks/:id DELETE
+  - [ ] todos
+    - [ ] /tasks/list GET
+    - [ ] /tasks/list POST
+    - [ ] /tasks/list/:id GET
+    - [ ] /tasks/list/:id UPDATE
+    - [ ] /tasks/list/:id DELETE
+- [ ] Add Authentication [Auth0]
+- [ ] Add database [Mongodb]
+- [ ] Add database [graphql]
