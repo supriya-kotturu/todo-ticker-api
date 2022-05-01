@@ -1,5 +1,4 @@
-import { Todo } from 'src/interfaces';
-
+import { Todo } from './todo.model';
 export class Task {
   constructor(
     public id: string,

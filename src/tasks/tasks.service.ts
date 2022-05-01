@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { Task } from './task.model';
+import { Todo } from './todo.model';
 
 @Injectable()
 export class TasksService {
@@ -14,5 +15,11 @@ export class TasksService {
 
   getTasks(): Task[] {
     return this.tasks;
+  }
+
+  addTask(timer: string, list: Todo[], status: 'expired' | 'running'): string {
+    const task = new Task('id', timer, list, status);
+    this.tasks.push(task);
+    return 'id';
   }
 }

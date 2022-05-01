@@ -40,7 +40,7 @@ $ npm run test:cov
 - [ ] API end points
   - [ ] tasks
     - [x] /tasks GET
-    - [ ] /tasks POST
+    - [x] /tasks POST
     - [ ] /tasks/:id GET
     - [ ] /tasks/:id UPDATE
     - [ ] /tasks/:id DELETE
