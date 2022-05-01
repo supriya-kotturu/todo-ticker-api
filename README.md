@@ -41,7 +41,7 @@ $ npm run test:cov
   - [ ] tasks
     - [x] /tasks GET
     - [x] /tasks POST
-    - [ ] /tasks/:id GET
+    - [x] /tasks/:id GET
     - [ ] /tasks/:id UPDATE
     - [ ] /tasks/:id DELETE
   - [ ] todos
